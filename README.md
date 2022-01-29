@@ -1,97 +1,70 @@
-# DBS_Hackathon
-#login page code
-<!DOCTYPE>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="prostyle.css">
-	</head>
-	<body>
-			<h1 align="center"> DBS Banking </h1> <br>
-		<div>
-    Username : <input type="text"> <br>
-    Password : <input type="password"> <br>
-    <a href="file:///C:/dbs%20program%20files/signup.html"> Sign up </a>
-</div>
-     </body> 
- </html>
- #css code for login
- body{
-	background-image: url("https://www.umassmed.edu/globalassets/human-resources/documents/immigration/images/bank-logo.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-h1{
-	background: #eef0e9;
-    color: #302d28;
-    margin-top: 84px;
-    margin-right: 200px;
-    margin-left: 200px;
-    /* padding-left: 31px; */
-    /* padding-right: 19px; */
-    text-align: center;
-    padding-top: 21px;
-    padding-bottom: 21;
-}
-a{
-	    font-size: 25px;
-    font-style: italic;
-    color: black;
-}
-div{
-	background-color: #eff0ed;
-    margin-left: 500;
-    margin-right: 500;
-    padding-left: 100;
-    padding-right: 100;
-    text-align: center;
-    /* margin-top: 50; */
-    padding-top: 70px;
-    padding-bottom: 70
-}
-#code for signup page
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="signupstyle.css">
-</head>
-<body>
+# Getting Started with Create React App
 
-    <h1 align="center"> Sign up page </h1> <br>
-  <div>
-    Firstname: <input type="text"> 
-    Lastname: <input type="text"><br>
-    Account number : <input type="number"> <br>
-    Male:<input type="radio" name="gen">
-    female:<input type="radio" name="gen"><br>
-    Create password:<input type="password"><br>
-</div>
-<div>
-    <input type="submit">
-</div>
-</body>
-</html>
-#attaching css for signup
-body{
-	background-image: url("https://loansinstitution.com/wp-content/uploads/2017/09/conquerir-nouveaux-clients-lyon-business-centers.jpg");
-}
-h1{
-    background-color: #03d3d840;
-    font-size: 50px;
-    font-style: initial;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: center;
-}
-div{
-	background-color: #eff0ed;
-    text-align: center;
-    padding-top: 70px;
-    margin-right: 400px;
-    margin-left: 400px;
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-}
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
